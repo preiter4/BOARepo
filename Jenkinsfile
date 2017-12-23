@@ -1,4 +1,4 @@
-pipeline {
+tpipeline {
   agent any
   stages {
     stage('Build') {
@@ -11,7 +11,7 @@ pipeline {
         bat 'echo "World"'
       }
     }
-    stage('Release') {
+    stage('Release Feature 1') {
       steps {
         bat 'echo "There"'
       }
