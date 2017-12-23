@@ -11,7 +11,7 @@ pipeline {
         bat 'echo "World"'
       }
     }
-    stage('Release') {
+    stage('Release Feature 2') {
       steps {
         bat 'echo "There"'
       }
